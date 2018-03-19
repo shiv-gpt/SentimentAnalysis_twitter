@@ -9,6 +9,7 @@ from collections import Counter
 import re as regex
 from xgboost import XGBClassifier as XGBoostClassifier
 
+# Citation : http://zablo.net/blog/post/twitter-sentiment-analysis-python-scikit-word2vec-nltk-xgboost
 
 seed = 666
 random.seed(seed)
