@@ -3,6 +3,8 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
 
+#Citation - https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
+
 class Init_Connection():
     def Init_Connection(self):
         consumer_key = '4N18JRcCs4a6XsqBybCuBQjcI'
